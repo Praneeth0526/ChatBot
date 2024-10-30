@@ -8,7 +8,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 import google.generativeai as genai
 
-GENAI_API_KEY = "AIzaSyDSdB2fVuUrL-JUjBjf0fcrifzJP-whmT4"
+GENAI_API_KEY = "your api key"
 with st.sidebar:
     st.title("LLM app")
     st.markdown('''
@@ -24,7 +24,7 @@ def main():
 
     #read pdf
 
-    pdf = "Cutoffs/RAM_final.pdf"
+    pdf = "your pdf"
     pdf_reader = PdfReader(pdf)
     #st.write(pdf_reader)
 
